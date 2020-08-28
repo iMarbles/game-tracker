@@ -1,9 +1,7 @@
 import React from "react";
 import { withRouter } from "react-router-dom";
-import { Row, Col, Typography, Divider } from "antd";
+import { Row, Col, Divider } from "antd";
 import GameLibrary from "components/GameLibrary";
-
-const { Title } = Typography;
 
 const Home = () => {
   return (
